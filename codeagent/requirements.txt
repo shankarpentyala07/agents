@@ -1,0 +1,4 @@
+smolagents>=0
+smolagents[litellm]
+numpy
+ibm-watsonx-ai
