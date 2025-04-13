@@ -1,5 +1,6 @@
 Sample Output:
 
+```
 (venv) shankarpentyala@Shankars-MacBook-Pro codeagent % python3 main.py
 Note: Environment variable`HF_TOKEN` is set and is the current active token independently from the token you've just configured.
 ╭────────────────────────────────────────────────────────── New run ──────────────────────────────────────────────────────────╮
@@ -196,3 +197,4 @@ Out: None
 Out - Final answer: 3 hours after the current time
 [Step 3: Duration 2.50 seconds| Input tokens: 7,774 | Output tokens: 631]
 (venv) shankarpentyala@Shankars-MacBook-Pro codeagent % 
+```
