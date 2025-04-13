@@ -1,4 +1,4 @@
-### Part planner agent
+### Party planner agent
 
 ### Setup
 
@@ -14,4 +14,4 @@ WATSONX_URL=""
 
 * To run party planner agent `python3 main.py`
 
-### This is with smolagent + IBM watsonx.ai + LiteLLM unified api engine
+### Partyplanner is a combination of smolagent + IBM watsonx.ai + LiteLLM unified api engine
