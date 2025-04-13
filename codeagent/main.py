@@ -33,7 +33,7 @@ llm  = LiteLLMModel(
 agent = CodeAgent(tools = [DuckDuckGoSearchTool()] , model=llm)
 
 # Selecting a playlist for the Party Using smolagents
-agent.run("Search for the best music recommendations for a party at the Wayne's mansion")
+# agent.run("Search for the best music recommendations for a party at the Wayne's mansion")
 
 # Using a Custom Tool to Prepare the Menu
 
@@ -63,19 +63,22 @@ def suggest_menu(occasion: str) -> str:
 agent = CodeAgent(tools=[suggest_menu], model=llm)
 
 # Preparing the menu for the party
-agent.run("Prepare a india menu for the party.")
+# agent.run("Prepare a india menu for the party.")
 # The agent will run for a few steps until finding the answer. Precising allowed values in the docstring helps direct agent to occasion argument values which exist and limit hallucinations
 #To use watsonx models
 agent = CodeAgent(tools=[], model = llm,additional_authorized_imports=['datetime'])
 
-agent.run(
-    """
-    Alfred needs to prepare for the party. Here are the tasks:
-    1. Prepare the drinks - 30 minutes
-    2. Decorate the mansion - 60 minutes
-    3. Set up the menu - 45 minutes
-    4. Prepare the music and playlist - 45 minutes
+# agent.run(
+#     """
+#     Alfred needs to prepare for the party. Here are the tasks:
+#     1. Prepare the drinks - 30 minutes
+#     2. Decorate the mansion - 60 minutes
+#     3. Set up the menu - 45 minutes
+#     4. Prepare the music and playlist - 45 minutes
 
-    If we start right now, at what time will the party be ready
-    """
-)
+#     If we start right now, at what time will the party be ready
+#     """
+# )
+
+# Change to your username and repo name
+agent.push_to_hub('Shankar43/AlfredAgent')
