@@ -90,4 +90,4 @@ agent = CodeAgent(
     verbosity_level=2
 )
 
-agent.run("Give me the best playlist for a Indian bachelors party and best catering service recommendation")
+agent.run("suggest telugu rural dj songs for bharat and also telangana marriage menu")

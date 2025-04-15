@@ -1,0 +1,5 @@
+smolagents
+smolagents[litellm]
+langchain
+langchain_community
+rank_bm25
