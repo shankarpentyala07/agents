@@ -1,0 +1,9 @@
+Pillow
+requests
+smolagents
+smolagents[litellm]
+
+smolagents[all]
+helium
+selenium
+python-dotenv
